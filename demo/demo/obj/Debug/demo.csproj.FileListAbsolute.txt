@@ -1,0 +1,7 @@
+E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Debug\demo.dll
+E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Debug\demo.pdb
+E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Debug\nunit.framework.dll
+E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Debug\nunit.framework.xml
+E:\Projekt Madagaskar\UnitTests\demo\demo\obj\Debug\ResolveAssemblyReference.cache
+E:\Projekt Madagaskar\UnitTests\demo\demo\obj\Debug\demo.dll
+E:\Projekt Madagaskar\UnitTests\demo\demo\obj\Debug\demo.pdb

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Release\demo.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-12-16" time="22:43:22">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.3053" os-version="Microsoft Windows NT 5.1.2600 Dodatek Service Pack 3" platform="Win32NT" cwd="E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Release" machine-name="T60" user="j.tomaszewski" user-domain="T60" />
+  <culture-info current-culture="pl-PL" current-uiculture="pl-PL" />
+  <test-suite type="Assembly" name="E:\Projekt Madagaskar\UnitTests\demo\demo\bin\Release\demo.dll" executed="True" result="Success" success="True" time="0.115" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="demo" executed="True" result="Success" success="True" time="0.104" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="SampleTest" executed="True" result="Success" success="True" time="0.101" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="AddReturnsSumOfBothParams" executed="True" result="Success" success="True" time="0.089" asserts="0">
+                <results>
+                  <test-case name="demo.SampleTest.AddReturnsSumOfBothParams(-1,-1)" executed="True" result="Success" success="True" time="0.075" asserts="1" />
+                  <test-case name="demo.SampleTest.AddReturnsSumOfBothParams(-1,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="demo.SampleTest.AddReturnsSumOfBothParams(1,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="demo.SampleTest.AddReturnsSumOfBothParams(1,-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
