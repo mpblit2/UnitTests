@@ -31,5 +31,15 @@ namespace BasicUnitTests
 
             Assert.AreEqual(2, result);
         }
+
+        [Test]
+        public void IsTestingFunReturnsTrue()
+        {
+            Sample s = new Sample();
+
+            bool result = s.IsTestingFun();
+
+            Assert.AreEqual(true, result);
+        }
     }
 }
