@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using NUnit.Framework;
 
 namespace BasicUnitTests
 {
@@ -15,6 +16,20 @@ namespace BasicUnitTests
         public bool IsTestingFun()
         {
             return true;
+        }
+    }
+
+    [TestFixture]
+    public class SampleTest
+    {
+        [Test]
+        public void AddReturnsSumOfBothParams()
+        {
+            Sample s = new Sample();
+
+            int result = s.Add(1, 1);
+
+            Assert.AreEqual(2, result);
         }
     }
 }
