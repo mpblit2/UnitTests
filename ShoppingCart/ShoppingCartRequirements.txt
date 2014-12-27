@@ -1,0 +1,14 @@
+FIRMA XYZ
+
+Wymagania dla "Karty Zakupów" (Shopping Cart)
+
+1. "Karta Zakupów" (Shopping Cart) mo¿e zawieraæ wile lub ¿adnych pozycji.
+2. Ka¿da karta zawiera
+	a. Iloœæ
+	b. Opis
+	c. Cena jednostkowa
+	d. Cena ca³oœciowa = Iloœæ * Cena jednostkowa
+3. Suma ca³kowita na karcie jest równa sumie poszczególnych pozycji na kartach
+4. Na karcie powinna byæ mo¿liwoœc modyfikowania iloœci pozycji.
+5. Rabat mo¿e byæ dodawany do pozycji na karcie.
+6. Cena pozycji zawieraj¹cej zni¿kê nie mo¿e byæ mniejsza ni¿ zero.
