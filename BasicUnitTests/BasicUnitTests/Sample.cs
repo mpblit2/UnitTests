@@ -22,24 +22,32 @@ namespace BasicUnitTests
     [TestFixture]
     public class SampleTest
     {
-        [Test]
-        public void AddReturnsSumOfBothParams()
+        private Sample s;
+        
+        [SetUp]
+        public void Setup()
         {
-            Sample s = new Sample();
-
-            int result = s.Add(1, 1);
-
-            Assert.AreEqual(2, result);
+            s = new Sample();
+        }
+        
+        [TestCase(1, 1)]
+        [TestCase(1, -1)]
+        [TestCase(-1, 1)]
+        [TestCase(-1, -1)]
+        public void AddReturnsSumOfBothParams(int a, int b)
+        {
+            int result = s.Add(a, b);
+            int expected = a + b;
+            
+            Assert.AreEqual(expected, result);
         }
 
         [Test]
         public void IsTestingFunReturnsTrue()
         {
-            Sample s = new Sample();
-
             bool result = s.IsTestingFun();
 
-            Assert.AreEqual(true, result);
+            Assert.IsTrue(result);
         }
     }
 }
